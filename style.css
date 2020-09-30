@@ -1,0 +1,164 @@
+body {
+    font-family: 'Bangers', cursive;
+    background-image: url(https://i.pinimg.com/originals/67/3a/b1/673ab1ddbefd571453dd36f8fc8458ea.jpg);
+}
+
+.header {
+    border: 10px dashed rgb(209, 188, 0);
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 110px;
+    text-align: center;
+    text-shadow: 7px 7px  black;
+    
+
+}
+
+#red {
+    color: rgb(231, 13, 13);
+    text-shadow: lightslategray;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#green {
+    color: rgb(0, 167, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+#yellow {
+    color: rgb(209, 188, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#blue {
+    color: rgb(14, 125, 189);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+#myForm {
+    text-align: center;
+}
+
+h2 {
+    font-size: 70px;
+    color: rgb(231, 13, 13);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    border: 5px  rgb(0, 167, 0)
+}
+
+h3 {
+    font-size: 40px;
+    color: rgb(209, 188, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+h4 {
+    font-size: 30px;
+    color: rgb(0, 167, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+img {
+    text-align: center;
+}
+
+#goombaTotal {
+    text-align: center;
+}
+
+.total {
+    font-size: 20px;
+}
+
+#goomba {
+    margin: 20px;
+    padding: 40px;
+    border: 7px dashed rgb(0, 167, 0);
+    border-radius: 10px;
+}
+
+#bob-omb {
+    margin: 20px;
+    padding: 40px;
+    border: 7px dashed rgb(0, 167, 0);
+    border-radius: 10px;
+}
+
+#cheep-cheep {
+    margin: 20px;
+    padding: 40px;
+    border: 7px dashed rgb(0, 167, 0);
+    border-radius: 10px;
+
+}
+
+#footer {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 7px dashed rgb(231, 13, 13);
+    border-radius: 10px;
+
+}
+
+#contact {
+    font-size: 60px;
+    color: rgb(209, 188, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+#email {
+    font-size: 25px;
+    color: rgb(0, 167, 0);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+#website {
+    font-size: 25px;
+    color: rgb(231, 13, 13);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(231, 13, 13);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+#address {
+    font-size: 25px;
+    color: rgb(14, 125, 189);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
+
+button {
+    background-color: rgb(231, 13, 13);
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 167, 0);
+    color: rgb(14, 125, 189);
+}
+
+

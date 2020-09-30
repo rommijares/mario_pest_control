@@ -7,11 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <h1>MARIO PEST CONTROL</h1>
+    <div class="header">
+    <h1>
+        <span id="red">M</span>
+        <span id="green">A</span>
+        <span id="yellow">R</span>
+        <span id="blue">I</span>
+        <span id="green">o</span> 
+    </h1>
+    <h1>
+        <span id ="red">P</span>
+        <span id="green">E</span>
+        <span id="yellow">S</span>
+        <span id="blue">T</span>
+    </h1>
+    <h1>
+        <span id="green">C</span>
+        <span id="red">O</span>
+        <span id="green">N</span>
+        <span id="yellow">T</span>
+        <span id="blue">R</span>
+        <span id="green">O</span>
+        <span id="red">L</span>
+    </h1>
+    </div>
    
     <form id="myForm">
 
@@ -19,21 +43,24 @@
             <h2 id="goombaHeader">GOOMBAS</h2>
             <h3 id="goombaPrice">Price: 5 coins</h3>
             <img src="images/goomba-pic.jpg" width="250px" height="250px"/>
-            Number of Goombas exterminated <input type="number" placeholder="Total of Goombas" name="totalGoombas" id="goombaTotal"/>
+           <h4>Number of Goombas exterminated </h4>
+            <input type="number" placeholder="Total of Goombas" name="totalGoombas" id="goombaTotal" class="total"/>
         </section>
 
         <section id="bob-omb">
             <h2 id="bobHeader">BOB-OMBS</h2>
             <h3 id="bobPrice">Price: 7 coins</h3>
             <img src="images/bob-omb-pic.png" width="250px" height="250px"/>
-            Number of Bob-ombs exterminated <input type="number" placeholder="Total of Bob-ombs" name="totalBobs" id="bobTotal"/>
+            <h4>Number of Bob-ombs exterminated </h4>
+            <input type="number" placeholder="Total of Bob-ombs" name="totalBobs" id="bobTotal" class="total"/>
         </section>
 
         <section id="cheep-cheep">
             <h2 id="cheepHeader">CHEEP-CHEEPS</h2>
             <h3 id="cheepPrice">Price: 11 coins</h3>
             <img src="images/cheep-cheep-pic.png" width="250px" height="250px"/>
-            Number of Cheep-cheeps exterminated <input type="number" placeholder="Total of Cheep-cheeps" name="totalCheeps" id="cheepTotal"/>
+           <h4> Number of Cheep-cheeps exterminated</h4>
+            <input type="number" placeholder="Total of Cheep-cheeps" name="totalCheeps" id="cheepTotal" class="total"/>
         </section>
 
         <button id="button" name="submitBtn">Submit</button>
