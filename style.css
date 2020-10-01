@@ -13,8 +13,34 @@ h1 {
     text-align: center;
     text-shadow: 7px 7px  black;
     
-
 }
+
+#mario_h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px
+        
+    }
+
+    #pest_h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        padding: 20px
+            
+        }
+
+        #control_h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            padding: 20px
+                
+            }
 
 #red {
     color: rgb(231, 13, 13);
@@ -159,6 +185,40 @@ button {
 button:hover {
     background-color: rgb(0, 167, 0);
     color: rgb(14, 125, 189);
+}
+
+#clearButton {
+    background-color: rgb(0, 167, 0);
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 50px;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+#clearButton:hover {
+    background-color: rgb(209, 188, 0);
+    color: rgb(231, 13, 13);
+}
+
+@media only screen and (min-width: 700px) {
+   
+    h1 {
+
+        padding: 30px;
+        font-size: 160px;
+        
+    }
+    #myForm {
+        margin: 20px;
+        border: 10px dashed rgb(231, 13, 13)
+    }
+
 }
 
 
