@@ -22,25 +22,25 @@ h1 {
     margin: 20px;
     padding: 20px
         
-    }
+}
 
-    #pest_h1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 20px;
-        padding: 20px
+#pest_h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px
             
-        }
+}
 
-        #control_h1 {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 20px;
-            padding: 20px
+#control_h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px
                 
-            }
+}
 
 #red {
     color: rgb(231, 13, 13);
@@ -97,6 +97,12 @@ img {
 }
 
 #goombaTotal {
+    text-align: center;
+}
+#cheepTotal {
+    text-align: center;
+}
+#bobTotal {
     text-align: center;
 }
 
@@ -168,6 +174,47 @@ a {
     -webkit-text-stroke-color: black;
 }
 
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 188, 0);
+    color: rgb(14, 125, 189);
+    font-family: 'Bangers', cursive;
+    font-size: 500px;
+    width: 320px;
+    height: 100px
+
+}
+
+#goombaTotal {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+#bobTotal {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+#cheepTotal {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+::placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(14, 125, 189);
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
+}
 button {
     background-color: rgb(231, 13, 13);
     color: white;
@@ -206,18 +253,69 @@ button:hover {
     color: rgb(231, 13, 13);
 }
 
+.buttons {
+  text-align: center;
+}
+
+
 @media only screen and (min-width: 700px) {
    
     h1 {
 
         padding: 30px;
-        font-size: 160px;
+        font-size: 120px;
         
     }
     #myForm {
-        margin: 20px;
-        border: 10px dashed rgb(231, 13, 13)
+        display: flex;
+        align-items: center;
+        margin:5px;
     }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+    #goombaHeader {
+        margin: 5px;
+
+    }
+    #bobHeader {
+        margin: 5px;
+    }
+    #cheepHeader {
+        margin: 5px;
+    }
+    
+    #goombaPrice {
+        margin: 50px;
+    }
+
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 100px;
+
+
+    }
+
+    #clearButton {
+        margin: 5px;
+        margin-left: 150px;
+       
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 7px dashed rgb(14, 125, 189);
+        border-radius: 10px;
+        margin: 20px
+    }
+    
 
 }
 
