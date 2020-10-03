@@ -125,6 +125,9 @@ img {
 }
 
 #cheep-cheep {
+    align-content: center;
+    text-align: center;
+    align-items: center;
     margin: 20px;
     padding: 40px;
     border: 7px dashed rgb(0, 167, 0);
@@ -192,6 +195,8 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    border: 5px solid rgb(184, 102, 9);
+    border-radius: 20px;
 
 }
 #bobTotal {
@@ -199,12 +204,16 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    border: 5px solid rgb(184, 102, 9);
+    border-radius: 20px;
 }
 #cheepTotal {
     display:flex;
     justify-content: center;
     align-items: center;
     font-size: 35px;
+    border: 5px solid rgb(184, 102, 9);
+    border-radius: 20px;
 }
 
 ::placeholder {
@@ -257,13 +266,92 @@ button:hover {
   text-align: center;
 }
 
+@media only screen and (min-width: 600px) {
 
-@media only screen and (min-width: 700px) {
+    h1 {
+
+        padding: 10px;
+        font-size: 120px;
+        
+    }
+
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+    #goombaHeader {
+        margin: 5px;
+
+    }
+    #bobHeader {
+        margin: 5px;
+    }
+    #cheepHeader {
+        margin: 5px;
+    }
+    
+    #goombaPrice {
+        margin: 50px;
+    }
+
+
+    button {
+        width: 120px;
+        font-size:20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right:75px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+
+
+    }
+
+    #clearButton {
+        width: 150px;
+        margin: 5px;
+        margin-left: 75px;
+        font-size: 20px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 7px dashed rgb(14, 125, 189);
+        border-radius: 10px;
+        margin: 20px
+    }
+
+    .numbers {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+    }
+    
+    .total {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    
+}
+
+@media only screen and (min-width: 1400px) {
    
     h1 {
 
         padding: 30px;
-        font-size: 120px;
+        font-size: 140px;
         
     }
     #myForm {
@@ -293,17 +381,26 @@ button:hover {
 
 
     button {
+        width: 200px;
+        font-size:50px;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 100px;
+        margin-right:150px;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
 
 
     }
 
     #clearButton {
+        width: 300px;
+        font-size: 50px;
         margin: 5px;
         margin-left: 150px;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: black;
+        
        
     }
 
